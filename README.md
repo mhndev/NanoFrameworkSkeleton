@@ -1,0 +1,1 @@
+skeleton for do project with mhndev/nano-framework
