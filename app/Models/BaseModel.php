@@ -1,10 +1,9 @@
 <?php
 
-namespace mhndev\NanoFrameworkSkeleton\models;
+namespace mhndev\NanoFrameworkSkeleton\Models;
 
 
-class BaseModel
+class BaseModel implements iModel
 {
-    
-    
+
 }

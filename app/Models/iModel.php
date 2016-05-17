@@ -1,6 +1,6 @@
 <?php
 
-namespace mhndev\NanoFrameworkSkeleton\models;
+namespace mhndev\NanoFrameworkSkeleton\Models;
 
 interface iModel
 {
