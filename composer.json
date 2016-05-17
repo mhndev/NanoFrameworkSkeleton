@@ -1,0 +1,25 @@
+{
+  "name": "mhndev/nano-framework-skeleton",
+  "description": "skeleton for do project with mhndev/nano-framework",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Majid Abdolhosseini",
+      "email": "majid8911303@gmail.com"
+    }
+  ],
+
+  "require": {
+    "php": ">=5.4.0",
+    "mhndev/nano-framework":"dev-develop",
+    "mhndev/csv":"dev-develop"
+  },
+
+
+  "autoload": {
+    "psr-4": {
+      "mhndev\\NanoFrameworkSkeleton\\": "app/"
+    }
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,59 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "71c647db702eb05b77934fcc73f28e58",
+    "content-hash": "6cf0ea41b0b64f1787d69f4bd791a37a",
+    "packages": [
+        {
+            "name": "mhndev/nano-framework",
+            "version": "dev-develop",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mhndev/NanoFramework.git",
+                "reference": "2605367d2ac9b8ccb1afd69fc054c86f01a3ae58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mhndev/NanoFramework/zipball/2605367d2ac9b8ccb1afd69fc054c86f01a3ae58",
+                "reference": "2605367d2ac9b8ccb1afd69fc054c86f01a3ae58",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "mhndev\\NanoFramework\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Majid Abdolhosseini",
+                    "email": "majid8911303@gmail.com"
+                }
+            ],
+            "description": "php message client for sending and receiving messages using rest or soap",
+            "time": "2016-05-17 11:14:40"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "mhndev/nano-framework": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=5.4.0"
+    },
+    "platform-dev": []
+}
