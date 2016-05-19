@@ -1,11 +1,15 @@
 {
   "name": "mhndev/nano-framework-skeleton",
   "description": "skeleton for do project with mhndev/nano-framework",
-  "license": "MIT",
+  "keywords": ["php framework skeleton", "nano framework skeleton"],
+  "type": "library",
+  "homepage": "http://github.com/mhndev/nano-framework-skeleton",
+  "license": "BSD Style",
   "authors": [
     {
       "name": "Majid Abdolhosseini",
-      "email": "majid8911303@gmail.com"
+      "email": "majid8911303@gmail.com",
+      "homepage": "http://mhndev.com"
     }
   ],
 
@@ -13,7 +17,6 @@
     "php": ">=5.4.0",
     "mhndev/nano-framework":"dev-develop"
   },
-
 
   "autoload": {
     "psr-4": {
