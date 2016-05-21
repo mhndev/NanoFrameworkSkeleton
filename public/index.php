@@ -1,7 +1,5 @@
 <?php
 
-use mhndev\NanoFramework\Kernel\Http\Kernel;
-
 require '../vendor/autoload.php';
 
 
@@ -13,11 +11,21 @@ $services = require_once '../app/services.php';
 
 $ioc = new \mhndev\NanoFramework\Ioc\Container($services);
 
+
 $request = $ioc->get('http')->createRequestFromGlobals();
 
-/** @var Kernel $app */
+/** @var mhndev\NanoFramework\Kernel\Http\Kernel $app */
 $app = $ioc->get('http-kernel');
 
 require_once '../app/routes.php';
 
-$response = $app->run($request);
+try{
+    $response = $app->run($request);
+
+}catch (Exception $e){
+
+    $response = (new \mhndev\trycatch\handler())->render($e, new \mhndev\NanoFramework\Http\Response());
+
+    $app->respond($response);
+
+}
