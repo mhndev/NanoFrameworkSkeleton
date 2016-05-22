@@ -37,9 +37,7 @@ interface iRepository
      * @param array $criteria
      * @return mixed
      */
-    public function fundOneByCriteria(array $criteria)
-
-        ;
+    public function findOneByCriteria(array $criteria);
 
     /**
      * @param array $criteria
